@@ -1,5 +1,7 @@
 ## OpenBadge VC Converter
 
+Powererd by [CTC SELMID](https://ctc-insight.com/selmid) [BlockBase](https://www.block-base.co/)
+
 <img width="1426" alt="Screen Shot 2022-01-31 at 18 33 13" src="https://user-images.githubusercontent.com/38043569/151775976-e1735379-23b3-4366-b0bf-28b4c54f8343.png">
 
 ### Issue
@@ -36,8 +38,3 @@ yarn dev
   - https://openbadgesvalidator.imsglobal.org/results
 - Check following document for the detail
   - https://github.com/IMSGlobal/openbadges-validator-core
-
-* Currently above API is not stable, so for the better demo, the verification code is comment outed.
-* Currently dynamic VC definition does not work and only accepts following Open Badges,
-  - [IDPro](https://idpro.org/)
-  - [Project Management Professional](https://www.pmi.org/)
