@@ -1,0 +1,30 @@
+{
+  "default": {
+    "locale": "en-US",
+    "card": {
+      "title": "KEIO Student Card",
+      "issuedBy": "Keio University",
+      "backgroundColor": "#001E62",
+      "textColor": "#F1C400",
+      "logo": {
+        "uri": "https://keioblobvc.blob.core.windows.net/logo/keio_logo.png",
+        "description": "KEIO Logo"
+      },
+      "description": "Use your Student ID to prove to anyone that you know all about verifiable credentials."
+    },
+    "consent": {
+      "title": "Do you want to get your Verified Credential KEIO student card?",
+      "instructions": "Sign in with your account to get your card."
+    },
+    "claims": {
+      "vc.credentialSubject.firstName": {
+        "type": "String",
+        "label": "First name"
+      },
+      "vc.credentialSubject.lastName": {
+        "type": "String",
+        "label": "Last name"
+      }
+    }
+  }
+}

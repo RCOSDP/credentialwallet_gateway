@@ -1,0 +1,28 @@
+{
+  "includeQRCode": false,
+  "includeReceipt": true,
+  "authority": "did:ion: THIS IS YOUR DID FROM THE VC PAGE IN AZURE PORTAL ...set at runtime...",
+  "registration": {
+    "clientName": "...set at runtime..."
+  },
+  "callback": {
+    "url": "...set at runtime...",
+    "state": "...set at runtime...",
+    "headers": {
+      "api-key": "OPTIONAL API-KEY for VERIFIER CALLBACK API"
+    }
+  },
+  "requestedCredentials": [
+    {
+      "type": "...set at runtime...",
+      "purpose": "the purpose why the verifier asks for one or more VCs",
+      "acceptedIssuers": ["...set at runtime..."],
+      "configuration": {
+        "validation": {
+          "allowRevoked": false,
+          "validateLinkedDomain": true
+        }
+      }
+    }
+  ]
+}

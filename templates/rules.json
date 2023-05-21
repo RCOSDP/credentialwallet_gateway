@@ -1,0 +1,22 @@
+{
+  "attestations": {
+    "idTokens": [
+      {
+        "id": "https://self-issued.me",
+        "mapping": {
+          "displayName": { "claim": "$.displayName" },
+          "personalId": { "claim": "$.personalId" },
+          "grade": { "claim": "$.grade" },
+          "department": { "claim": "$.department" }
+        },
+        "configuration": "https://self-issued.me",
+        "client_id": "",
+        "redirect_uri": ""
+      }
+    ]
+  },
+  "validityInterval": 2592000,
+  "vc": {
+    "type": ["https://schema.org/StudentId", "https://www.keio.ac.jp"]
+  }
+}

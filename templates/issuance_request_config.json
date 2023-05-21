@@ -1,0 +1,28 @@
+{
+  "includeQRCode": false,
+  "callback": {
+    "url": "...set at runtime...",
+    "state": "...set at runtime...",
+    "headers": {
+      "api-key": "OPTIONAL API-KEY for ISSUANCE CALLBACK API"
+    }
+  },
+  "authority": "did:ion: THIS IS YOUR DID FROM THE VC PAGE IN AZURE PORTAL ...set at runtime...",
+  "registration": {
+    "clientName": "...set at runtime..."
+  },
+  "type": "...set at runtime...",
+  "manifest": "CREDENTIAL URL ...set at runtime...",
+  "pin": {
+    "value": "1234",
+    "length": 4
+  },
+  "claims": {
+    "photo": "...set at runtime...",
+    "email": "naohiro.fujie@eidentity.jp",
+    "openbadge": "...set at runtime...",
+    "verificationURL": "...set at runtime...",
+    "issued": "...set at runtime...",
+    "expire": "...set at runtime..."
+  }
+}

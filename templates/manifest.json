@@ -1,0 +1,20 @@
+{
+  "contractName": "test3",
+  "issuerId": "4538da63-2043-f4e8-f907-c6fb18b024e2",
+  "rulesFile": "https://vchackathonstg.blob.core.windows.net/vcstg/rules_714ca247-d727-46ca-b2ed-4392b8a2462f.json",
+  "displayFile": "https://vchackathonstg.blob.core.windows.net/vcstg/display_714ca247-d727-46ca-b2ed-4392b8a2462f.json",
+  "rulesFileContainerMetadata": {
+    "subscriptionId": "cbc0a632-3a76-4c8d-babd-07f470395c1f",
+    "resourceGroup": "vcrg",
+    "resourceName": "vchackathonstg",
+    "container": "vcstg",
+    "resourceUrl": "https://vchackathonstg.blob.core.windows.net/vcstg/rules_714ca247-d727-46ca-b2ed-4392b8a2462f.json"
+  },
+  "displayFileContainerMetadata": {
+    "subscriptionId": "cbc0a632-3a76-4c8d-babd-07f470395c1f",
+    "resourceGroup": "vcrg",
+    "resourceName": "vchackathonstg",
+    "container": "vcstg",
+    "resourceUrl": "https://vchackathonstg.blob.core.windows.net/vcstg/display_714ca247-d727-46ca-b2ed-4392b8a2462f.json"
+  }
+}
